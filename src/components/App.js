@@ -14,7 +14,7 @@ const App = () => {
       <h1>Parent Component</h1>
       {/* Conditionally render content based on login status */}
       {isLoggedIn ? (
-        <h2>You are logged in!</h2>
+        <p>You are logged in!</p>
       ) : (
         <LoginForm onLogin={handleLogin} /> // Pass handleLogin to child as prop
       )}
