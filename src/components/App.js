@@ -11,6 +11,7 @@ const App = () => {
 
   return (
     <div>
+      <h1>Parent Component</h1>
       {/* Conditionally render content based on login status */}
       {isLoggedIn ? (
         <h2>You are logged in!</h2>
